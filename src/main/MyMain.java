@@ -9,6 +9,8 @@ public class MyMain {
         tree.insert(20);
         tree.insert(30);
         tree.insert(40);
+        boolean result = tree.search(30);
+        System.out.println("Element is present: "+result);
         //create binary search tree
         // and perform insert, search, traversal, delete
     }
