@@ -3,7 +3,7 @@ package myinterface;
 public interface BinarySearchTreeADT<E extends Comparable<E>> {
     void insert(E data);
     boolean search(E searchElement);
-    void inOrder(Node<E> node);
+    void inOrder(implementation.Node<E> node);
     void preOrder(Node<E> node);
     void postOrder(Node<E> node);
     void reverseInOrder(Node<E> node);
